@@ -10,8 +10,17 @@
   "author": "@ethiclesshacker",
   "license": "ISC",
   "dependencies": {
+    "@mediapipe/camera_utils": "^0.3.1640029074",
+    "@mediapipe/control_utils": "^0.6.1629159505",
+    "@mediapipe/drawing_utils": "^0.3.1620248257",
+    "@mediapipe/hands": "^0.4.1635986972",
+    "@tensorflow-models/handpose": "^0.0.7",
+    "@tensorflow/tfjs-backend-webgl": "^3.13.0",
+    "@tensorflow/tfjs-converter": "^3.13.0",
+    "@tensorflow/tfjs-core": "^3.13.0",
     "express": "^4.17.1",
-    "socket.io": "^2.3.0",
+    "fingerpose": "^0.1.0",
+    "socket.io": "^4.4.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
